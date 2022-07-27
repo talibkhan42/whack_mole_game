@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rat animation game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>whack a mole <span id="score">0</span></h1>
+    <div id="game">
+        <div class="box">
+            <span id="rat1" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+        <div class="box">
+            <span id="rat2" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+        <div class="box">
+            <span id="rat3" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+        <div class="box">
+            <span id="rat4" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+        <div class="box">
+            <span id="rat5" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+        <div class="box">
+            <span id="rat6" class="rat"><img src="img/mole.svg" alt=""> </span>
+            <div class="hole"><img src="img/dirt.svg" alt=""> </div>
+        </div>
+    </div>
+
+    <!-- ye win or restar ke liye -->
+    <div id="youwin">
+        <h1> YOU WON</h1>
+        <button class="btn" onclick="location.reload()">Restart</button>
+    </div>
+    <!-- ye game over ke liye fir restar ke liye -->
+    <div id="youlost">
+        <h1> YOU LOST  </h1>
+        <button class="btn" onclick="location.reload()">Restart</button>
+    </div>
+    <!-- this for sound -->
+    <audio src="sound/background_sound.mp3" id="sound1"></audio>
+    <audio src="sound/tom.wav" id="sound2"></audio>
+    <audio src="sound/win_sound.wav" id="sound3"></audio>
+    <audio src="sound/click_sound.wav" id="sound4"></audio>
+    <audio src="sound/You Won.mp3" id="sound5"></audio>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
