@@ -21,7 +21,9 @@ var sound4 = document.getElementById("sound4");
 var sound5= document.getElementById("sound5");
 
 
-alert("do you want to play");
+alert("your score will increase when you mouseover on rat and if your score will become 6 you won otherwise you lost ");
+alert("Do you want to play");
+
 
 
 setInterval(function () {
